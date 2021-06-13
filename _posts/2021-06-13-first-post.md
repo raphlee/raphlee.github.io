@@ -17,7 +17,7 @@ Mình sẽ dần upload lại các post đã có từ 2 blogs kia, như kiểu t
 
 Tiện mình cũng sẽ up luôn post đầu tiên mình viết trên [World-Min](http://world-min.blogspot.com/2015/08/history-of-computer.html) lên đây.
 
-Nhấp vào em [link](./2021-06-13-history-of-compupter.md) này nhé :3
+Nhấp vào em [link](/2021-06-13-history-of-compupter) này nhé :3
 
 ***
 Thân ái,  
