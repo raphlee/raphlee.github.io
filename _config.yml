@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Raphael's personal post
+title: Raphael
 
 # Your name to show in the footer
 author: Raphael
@@ -88,7 +88,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"
