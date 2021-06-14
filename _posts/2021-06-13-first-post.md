@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello World
+readtime: true
 tags: [hello, world]
 ---
 

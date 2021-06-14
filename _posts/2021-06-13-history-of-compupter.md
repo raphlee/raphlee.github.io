@@ -1,6 +1,7 @@
 ---
 layout: post
 title: History of Computer
+readtime: true
 tags: [history, computer, dos, user, windows]
 ---
 
