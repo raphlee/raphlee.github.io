@@ -32,7 +32,7 @@ layout: base
       {% endif %}
 
       {% if page.before-content %}
-        <div class="before-content">
+        <div class="before-content" style="text-align:justify">
           {% for file in page.before-content %}
             {% include {{ file }} %}
           {% endfor %}

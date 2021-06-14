@@ -2,7 +2,7 @@
     position: absolute;
     cursor: pointer;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     background: #fff;
     border-radius: 1rem;
     font-size: 0.8125rem;
@@ -21,7 +21,7 @@
     }
     #change-skin {
       top: auto;
-      right: 1rem;
+      right: 0.65rem;
     }
   }
   @media (max-width: 1199px) {
