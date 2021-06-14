@@ -32,14 +32,14 @@ layout: base
       {% endif %}
 
       {% if page.before-content %}
-        <div class="before-content" style="text-align:justify">
+        <div class="before-content">
           {% for file in page.before-content %}
             {% include {{ file }} %}
           {% endfor %}
         </div>
       {% endif %}
 
-      <article role="main" class="blog-post">
+      <article role="main" class="blog-post" style="text-align:justify">
         {{ content }}
       </article>
 

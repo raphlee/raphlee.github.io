@@ -2,7 +2,7 @@
 layout: post
 title: Radio - The First Story
 readtime: true
-tags: [radio, story, 1vn]
+tags: [radio, love, story, 1vn]
 ---
 
 Nước Mỹ, năm 1972, tại một tỉnh vùng núi xa xôi, trong thị trấn nhỏ vô danh có một chàng trai bị kết án tù. Cảnh sát đã chứng minh được rằng anh phạm tội và 3 năm là một thời gian vừa đủ để anh sửa chữa lỗi lầm nhưng Mary, người vợ sắp cưới của anh thì không thể tin điều đó.
@@ -25,4 +25,8 @@ Năm thứ 2, chàng trai nhờ người hỏi han tin tức và chỉ nghe phon
 ***
 Bạn có thể nghe [bài hát](https://mp3.zing.vn/bai-hat/Tie-A-Yellow-Ribbon-Round-The-Old-Oak-Tree-Dawn/ZW6WWU69.html) này để hiểu hơn về câu chuyện kể trên.
 
-Thx.
+Cuối cùng, hãy đón đọc [bài radio tiếp](/2021-06-14-radio-the-second) nhé :))
+
+***
+Thân ái,  
+_Raphael_
