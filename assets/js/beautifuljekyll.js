@@ -46,6 +46,15 @@ var BeautifulJekyllJS = {
     }
   },
 
+  changeSkin : function(isDarkSkin) {
+    if(isDarkSkin !== false){
+      $(".navbar").removeClass("navbar-dark").addClass("navbar-light");
+    }
+    else{
+      $(".navbar").removeClass("navbar-light").addClass("navbar-dark");
+    }
+  },
+
   initImgs : function() {
     // If the page was large images to randomly select from, choose an image
     if ($("#header-big-imgs").length > 0) {
