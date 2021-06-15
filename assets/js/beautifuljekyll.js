@@ -32,6 +32,37 @@ var BeautifulJekyllJS = {
   },
 
   initNavbar : function() {
+    // Check browser support
+    if (typeof(Storage) !== "undefined") {
+      // Retrieve
+      const skin = localStorage.getItem("skin");
+      if(typeof(skin) !== "undefined") {
+        if(skin === "light") {
+          BeautifulJekyllJS.changeSkin(false);
+        }
+        else {
+          BeautifulJekyllJS.changeSkin(true);
+        }
+      }
+      else {
+        BeautifulJekyllJS.changeSkin(false);
+        localStorage.setItem("skin", "light"); // default is light
+      }
+    } else {
+      BeautifulJekyllJS.changeSkinBasedOnBackground();
+    }
+  },
+
+  changeSkin : function(isDarkSkin) {
+    if(isDarkSkin !== false){
+      $(".navbar").removeClass("navbar-dark").addClass("navbar-light");
+    }
+    else{
+      $(".navbar").removeClass("navbar-light").addClass("navbar-dark");
+    }
+  },
+
+  changeSkinBasedOnBackground : function() {
     // Set the navbar-dark/light class based on its background color
     const rgb = $('.navbar').css("background-color").replace(/[^\d,]/g,'').split(",");
     const brightness = Math.round(( // http://www.w3.org/TR/AERT#color-contrast
@@ -46,12 +77,29 @@ var BeautifulJekyllJS = {
     }
   },
 
-  changeSkin : function(isDarkSkin) {
-    if(isDarkSkin !== false){
-      $(".navbar").removeClass("navbar-dark").addClass("navbar-light");
-    }
-    else{
-      $(".navbar").removeClass("navbar-light").addClass("navbar-dark");
+  toggleSkin : function() {
+    // Check browser support
+    if (typeof(Storage) !== "undefined") {
+      // Retrieve
+      const skin = localStorage.getItem("skin");
+      if(typeof(skin) !== "undefined") {
+        if(skin === "dark") {
+          // Change back to light when cache is dark.
+          BeautifulJekyllJS.changeSkin(false);
+          localStorage.setItem("skin", "light");
+        }
+        else {
+          // Change back to dark when cache is light.
+          BeautifulJekyllJS.changeSkin(true);
+          localStorage.setItem("skin", "dark");
+        }
+      }
+      else {
+        BeautifulJekyllJS.changeSkin(true);
+        localStorage.setItem("skin", "dark");
+      }
+    } else {
+      BeautifulJekyllJS.changeSkinBasedOnBackground();
     }
   },
 
