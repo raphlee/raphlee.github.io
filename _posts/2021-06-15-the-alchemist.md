@@ -27,8 +27,9 @@ tags: [alchemist]
 
 * Cậu chợt hiểu ngay rằng cô gái đứng kia sẽ là người bạn đời của mình... và cậu đã yêu dù không hề biết cô.
 
-***
-{: .box-note}**Bonus:** _"Anh yêu em vì cả vũ trụ đã góp sức... để anh đến tận đây và gặp được em."_
+
+{: .box-note}
+**Bonus:** _"Anh yêu em vì cả vũ trụ đã góp sức... để anh đến tận đây và gặp được em."_
 
 
 ***
