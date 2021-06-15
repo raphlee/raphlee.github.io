@@ -1,9 +1,9 @@
 ---
 layout: post
 title: The Alchemist - Paulo Coelho
-cover-img: /assets/img/the_chemist.jpg
-thumbnail-img: /assets/img/the_chemist.jpg
-share-img: /assets/img/the_chemist.jpg
+cover-img: /assets/img/the_alchemist.jpeg
+thumbnail-img: /assets/img/the_alchemist.jpeg
+share-img: /assets/img/the_alchemist.jpeg
 readtime: true
 tags: [alchemist]
 ---
@@ -28,8 +28,7 @@ tags: [alchemist]
 * Cậu chợt hiểu ngay rằng cô gái đứng kia sẽ là người bạn đời của mình... và cậu đã yêu dù không hề biết cô.
 
 ***
-{: .box-note}
-**Bonus:** _"Anh yêu em vì cả vũ trụ đã góp sức... để anh đến tận đây và gặp được em."_
+{: .box-note}**Bonus:** _"Anh yêu em vì cả vũ trụ đã góp sức... để anh đến tận đây và gặp được em."_
 
 
 ***
