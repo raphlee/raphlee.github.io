@@ -22,7 +22,7 @@ Em yêu, anh nghĩ rằng đã đến lúc rồi, anh yêu em biết bao. Hãy t
 _Anh lại vừa quên không nói với em: **“Anh yêu em!"**_
 
 ***
-Vậy là khép lại series về các câu chuyện radio rồi. Đây là sự tổng hợp lại của mình khi nghe các bài radio tâm sự trên diễn đàn [1vn.com](/#). Hiện diễn đàn đã không còn hoạt động nữa, nhưng các bạn vẫn có thể vào [Playlist - Radio thay lời muốn nói](https://www.nhaccuatui.com/playlist/radio-thay-loi-muon-noi-1vncom-dang-cap-nhat.gJIoAFMplMNO.html?st=5) này để lắng nghe và cảm nhận.
+Vậy là khép lại series về các câu chuyện radio rồi. Đây là sự tổng hợp lại của mình khi nghe các bài radio tâm sự trên diễn đàn [1vn.com](#). Hiện diễn đàn đã không còn hoạt động nữa, nhưng các bạn vẫn có thể vào [Playlist - Radio thay lời muốn nói](https://www.nhaccuatui.com/playlist/radio-thay-loi-muon-noi-1vncom-dang-cap-nhat.gJIoAFMplMNO.html?st=5) này để lắng nghe và cảm nhận.
 
 ***
 Riêng mình ngoài những câu chuyện có ý nghĩa thì các bài radio còn có nhiều bản nhạc rất hay nữa :))
