@@ -1,6 +1,6 @@
 $(function() {
     $('#change-skin').on('click', function () {
       $("body").toggleClass("page-dark-mode");
-      BeautifulJekyllJS.toggleSkin();
+      BeautifulJekyllJS.initNavbar();
     });
   });
