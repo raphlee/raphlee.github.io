@@ -1,6 +1,6 @@
 ---
 layout: post
-title: History of Computer
+title: [Fun] History of Computer
 readtime: true
 tags: [history, computer, dos, user, windows]
 ---
