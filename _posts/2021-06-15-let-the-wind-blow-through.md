@@ -101,4 +101,4 @@ Có thể bạn đọc sẽ thấy tôi văn phong của tôi nhiều chỗ khô
 ["3. Để nắng hồng môi"](#3-để-nắng-hồng-môi) tôi hoàn toàn có thể viết để hoàn thành bộ 3 này nhưng tôi không muốn, hãy để cho cảm xúc thật của 1 người nào đó được chia sẻ.
 
 ***
-Nguồn: _Anonymous_
+Nguồn _Anonymous_.
