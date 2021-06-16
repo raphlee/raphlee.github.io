@@ -1,6 +1,6 @@
 ---
 layout: post
-title: :[Story] Radio - The Third Story (Final)
+title: Radio - The Third Story (Final)
 readtime: true
 tags: [radio, love, story, 1vn]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: :[Book] I've forgot
+title: I've forgot
 readtime: true
 tags: [dad, family]
 ---

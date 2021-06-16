@@ -1,6 +1,6 @@
 ---
 layout: post
-title: :[Book] The Alchemist - Paulo Coelho
+title: The Alchemist - Paulo Coelho
 cover-img: /assets/img/the_alchemist.jpeg
 thumbnail-img: /assets/img/the_alchemist.jpeg
 share-img: /assets/img/the_alchemist.jpeg
