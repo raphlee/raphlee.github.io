@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Story] Radio - The Second Story
+title: :[Story] Radio - The Second Story
 readtime: true
 tags: [radio, love, story, 1vn]
 ---

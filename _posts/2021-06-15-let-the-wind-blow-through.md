@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Story] Let the wind blow through
+title: :[Story] Let the wind blow through
 readtime: true
 tags: [wind, love, story, 1vn]
 ---
