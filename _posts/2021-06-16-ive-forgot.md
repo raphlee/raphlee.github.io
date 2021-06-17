@@ -2,7 +2,7 @@
 layout: post
 title: I've forgot
 readtime: true
-tags: [dad, family]
+tags: [book, dad, family]
 ---
 
 Con trai yêu quý, con hãy nghe những lời ân hận của cha đây. Cha đã lén vào phòng con khi con đang chìm vào giấc ngủ trẻ thơ. Nhìn con kìa, một tay con đặt dưới gò má, những lọn tóc hung đẫm mồ hôi bám chặt vào vầng trán ẩm ướt. Chỉ cách đây vài phút thôi, khi cha ngồi trong phòng đọc sách và xem lại bài viết của mình, nỗi hối hận chợt dâng ngập hồn cha. Và cha đã chạy ngay đến phòng con để nói lời xin lỗi.

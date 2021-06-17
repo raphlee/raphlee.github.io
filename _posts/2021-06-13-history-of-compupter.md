@@ -2,7 +2,7 @@
 layout: post
 title: History of Computer
 readtime: true
-tags: [history, computer, dos, user, windows]
+tags: [fun, history, computer, dos, user, windows]
 ---
 
 1. Đầu tiên Chúa tạo ra Bit và Byte, và từ những thứ đó ông tạo ra Word.

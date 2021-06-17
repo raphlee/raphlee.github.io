@@ -2,7 +2,7 @@
 layout: post
 title: Radio - The First Story
 readtime: true
-tags: [radio, love, story, 1vn]
+tags: [story, radio, love, 1vn]
 ---
 
 Nước Mỹ, năm 1972, tại một tỉnh vùng núi xa xôi, trong thị trấn nhỏ vô danh có một chàng trai bị kết án tù. Cảnh sát đã chứng minh được rằng anh phạm tội và 3 năm là một thời gian vừa đủ để anh sửa chữa lỗi lầm nhưng Mary, người vợ sắp cưới của anh thì không thể tin điều đó.

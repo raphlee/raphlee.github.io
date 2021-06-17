@@ -2,7 +2,7 @@
 layout: post
 title: Radio - The Second Story
 readtime: true
-tags: [radio, love, story, 1vn]
+tags: [story, radio, love, 1vn]
 ---
 
 Stefen và James mới gặp nhau nhưng rất hợp cạ nên nhanh chóng trở thành đôi bạn thân. Cũng như bao chàng trai trẻ khác, họ thích chơi thể thao, tụ tập sau giờ tan sở và tán tỉnh các cô gái đẹp. Một ngày, Stefen kéo James đến thăm bà ngoại cùng anh.

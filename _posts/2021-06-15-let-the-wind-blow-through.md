@@ -2,7 +2,7 @@
 layout: post
 title: Let the wind blow through
 readtime: true
-tags: [wind, love, story, 1vn]
+tags: [story, wind, love, 1vn]
 ---
 
 {: .box-warning}

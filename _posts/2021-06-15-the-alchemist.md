@@ -5,7 +5,7 @@ cover-img: /assets/img/the_alchemist.jpeg
 thumbnail-img: /assets/img/the_alchemist.jpeg
 share-img: /assets/img/the_alchemist.jpeg
 readtime: true
-tags: [alchemist]
+tags: [book, alchemist]
 ---
 
 * ... trong thâm tâm của cậu biết mình không thể chẳng cần, vì rằng bất cứ người chăn cừu, người phù thủy hay người khách thương nay đây mai đó nào cũng có ở đâu đó một kẻ khiến cho họ quên mất thú vui được tự do giang hồ đi cùng trời cuối đất.

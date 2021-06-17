@@ -2,7 +2,7 @@
 layout: post
 title: Radio - The Third Story (Final)
 readtime: true
-tags: [radio, love, story, 1vn]
+tags: [story, radio, love, 1vn]
 ---
 
 Có một người đàn ông đã gửi cho vợ mình lá thư tràn đầy lòng biết ơn và tình yêu. Chỉ tiếc rằng đây là lá thư cuối cùng vì người ta tìm thấy xác của anh mắc kẹt trong chiếc xe tải bởi một tai nạn, bàn tay đầy máu nắm chặt bức thư.
