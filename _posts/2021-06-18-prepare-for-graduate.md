@@ -19,7 +19,7 @@ Vậy tôi viết đôi dòng này với tư cách Cựu sinh viên K31-BKHN, t�
 
 #### HELLO CÁC BẠN “DỰ BỊ CỰU SINH VIÊN”!
 
-Vậy là hôm trước thầy Lê Đức Trung Post một bài gọi là **“THAY CHO LỜI HƯỚNG DẪN TRÌNH BÀY TỐT NGHIÊP”** trên Group SOICT để giúp các bạn có thể bằng cách nào đó nâng cao được điểm số của mình, tức là đạt kết quả Bảo vệ tốt.
+Vậy là hôm trước thầy Lê Đức Trung Post một bài gọi là **“THAY CHO LỜI HƯỚNG DẪN TRÌNH BÀY TỐT NGHIỆP”** trên Group SOICT để giúp các bạn có thể bằng cách nào đó nâng cao được điểm số của mình, tức là đạt kết quả Bảo vệ tốt.
 
 Với kinh nghiệm ra trường lâu năm, tôi xin nói rằng mấy thứ đó cuối cùng cũng chỉ là lý thuyết, vì Bạn chỉ kiểm soát được việc trình bày, trong khi cho điểm lại do người khác làm. Điều này cho thấy Bạn thực sự mất control quy trình này và Điểm số là Output của một hàm số phức tạp với các tham số đầu vào như: Chất lượng trình bày của bạn/ Kiến thức của Hội đồng/ Lòng độ lượng và công minh của Quan tòa/ Mức độ dễ chịu Thời tiết trong ngày/ Máy chiếu sáng rõ hay mờ mịt/ Không khí khán phòng trong sạch hay ô nhiễm v…v.
 
@@ -38,7 +38,7 @@ Khi bảo vệ thì đừng tham quá. Thượng đế công bằng và cho mọ
 
 Như vậy thì trong buổi bảo vệ, bạn phải thông cảm nếu các đồng môn không đủ thông minh để gỡ bí cho bạn, Hội đồng không đủ tinh tế để đoán được hết những gì bạn không nói.
 
-Và quan trọng nhất bạn không được tham lấy hết cái ngu của Thiên hạ, phải dành cho người khác Ngu nữa chớ (Riêng câu dạy này là mình học được từ anh bạn làm cùng với mình, tốt nghiệp ĐH Văn hóa biết nói giọng Châu Tinh Trì … Cậu đọc được đến đây là biết mình cám ơn cậu rồi nhá :) :).
+Và quan trọng nhất bạn không được tham lấy hết cái ngu của Thiên hạ, phải dành cho người khác Ngu nữa chớ (Riêng câu dạy này là mình học được từ anh bạn làm cùng với mình, tốt nghiệp ĐH Văn hóa biết nói giọng Châu Tinh Trì… Cậu đọc được đến đây là biết mình cám ơn cậu rồi nhá :) :).
 
 
 **SÂN:**  
@@ -52,20 +52,20 @@ Yêu là điều tốt đẹp nhất, nhưng quá yêu thì sẽ ngăn bạn kh�
 Xin nói rằng bạn chính thức vừa đăng ký và học hệ thạc sỹ trường “Đại học Bôn ba” rồi đấy. Đâu bỏ kiếp học hành được. BKHN chỉ là một chặng kỷ chân, một ga tàu trong lộ trình của bạn. Nếu ở ga này điểm số không tốt, tại đây bạn có đôi chút dằn vặt là tại sao hôm Bảo vệ đó bạn ngu quá mức mong đợi để nhận điểm kém thì không sao, bến Ga tới có thể người khác tranh suất ngu thay cho bạn và bạn sẽ có bằng Đỏ Thạc sỹ.
 
 **KẾT LUẬN:**  
-Đến giờ chắc bạn vẫn còn băn khoăn về chuyện nên Ngu hay Khôn khi bảo vệ. Cổ nhân có câu rằng “Khôn chết, Ngu cũng chết, chỉ có Biết thì mới sống”.Bản thân từ “Tốt Nghiệp” có chữ Nghiệp tức là mốc đánh dấu bạn đã là người chuyên nghiệp. Vậy tiêu chí đánh giá không phải bạn Ngu hay Khôn mà là bạn có phải là người Chuyên nghiệp trong ngành mình học hay là tay mơ.
+Đến giờ chắc bạn vẫn còn băn khoăn về chuyện nên Ngu hay Khôn khi bảo vệ. Cổ nhân có câu rằng “Khôn chết, Ngu cũng chết, chỉ có Biết thì mới sống”. Bản thân từ “Tốt Nghiệp” có chữ Nghiệp tức là mốc đánh dấu bạn đã là người chuyên nghiệp. Vậy tiêu chí đánh giá không phải bạn Ngu hay Khôn mà là bạn có phải là người Chuyên nghiệp trong ngành mình học hay là tay mơ.
 
 Những cựu sinh viên BKHN chúng tôi chúc bạn hãy chiến đấu như những người chuyên nghiệp, không phải xin, không phải ân hận, không phải cay cú. Không thi thì thôi, còn đã thi thì cứ hêt sức mình, còn điểm số là chuyện của hên sui.
 
 Hãy là người chuyên nghiệp, thi gì cũng phải hết sức cho dù đó là cuộc thi kỳ quặc như thi Ngu chẳng hạn. Hãy để đối thủ tôn trọng bạn vì bạn là tay chuyên nghiệp, đừng để người ta đàm tếu là chẳng biết Thày trò dạy dỗ nhau kiểu gì mà ra trường Ngu đến mức thi Ngu cố hết sức cũng chỉ được giải nhì.
-(Trung lờ đờ)
+(Trung lờ đờ).
 
 
 ***
 Tham chiếu: Bài Post của thầy Lê Đức Trung trong Group SOICT, xin dẫn chứng dưới đây:
 
-THAY CHO LỜI HƯỚNG DẪN TRÌNH BÀY TỐT NGHIÊP  
-Dear các em Sinh viên thầy Hùng/ Trung hương dẫn
-Và Dear các em khác …
+**THAY CHO LỜI HƯỚNG DẪN TRÌNH BÀY TỐT NGHIÊP**  
+_Dear các em Sinh viên thầy Hùng/ Trung hương dẫn
+Và Dear các em khác…_
 
 
 #### Kinh nghiệm trình bày Đồ án tốt nghiệp:
@@ -89,12 +89,12 @@ Và Dear các em khác …
 Đầu tiên là giới thiệu Bài toán/ Vấn đề (tiếng anh là Problem). Bối cảnh, khó khăn hiện tại của Khách hàng (Đương nhiên là Khách hàng mà không có khó khăn/ vấn đề gì thì em đứng ba hoa 15 phút về Tin học hóa để làm cái gì?)
 
 **WHY?**  
-Tại sao khách hàng phải chọn em/ giải pháp của em mà không phải của người khác. Giới thiệu qua Công nghệ mới mà em sử dụng có tính khả thi giải quyết được bà toán/ vấn đề đau đầu của khách. Khách hàng đau răng, em hãy khoe mình là bác sỹ Nha khoa, không phải Hộ lý đỡ đẻ. Một số sinh viên trình thấp trình bày đúng công nghệ mình lựa chọn, Một số sinh viên trình cao thì giới thiệu qua một danh sách các công nghệ tương đương trên thế giới, sau đó so sánh và cung cấp số liệu thống kê chứng minh lựa chọn của mình là Number One.
+Tại sao khách hàng phải chọn em/ giải pháp của em mà không phải của người khác. Giới thiệu qua Công nghệ mới mà em sử dụng có tính khả thi giải quyết được bà toán/ vấn đề đau đầu của khách. Khách hàng đau răng, em hãy khoe mình là bác sỹ Nha khoa, không phải Hộ lý đỡ đẻ. Một số sinh viên trình thấp trình bày đúng công nghệ mình lựa chọn. Một số sinh viên trình cao thì giới thiệu qua một danh sách các công nghệ tương đương trên thế giới, sau đó so sánh và cung cấp số liệu thống kê chứng minh lựa chọn của mình là **Number One.**
 
 **HOW?**  
-Cái này có 2 phần. Một phần HOW (đúng hơn là chi tiết của WHAT) mô tả Quy trình nghiệp vụ của Khách hàng (hoặc luật chơi của Game, hoặc công thức của bài toán) để người nghe hiểu rõ hơn WHAT? Hình dung ra bài toán của Khách hàng một cách đầy đủ. Phần này chính Là "Phân tích”
+Cái này có 2 phần. Một phần HOW (đúng hơn là chi tiết của WHAT) mô tả Quy trình nghiệp vụ của Khách hàng (hoặc luật chơi của Game, hoặc công thức của bài toán) để người nghe hiểu rõ hơn WHAT? Hình dung ra bài toán của Khách hàng một cách đầy đủ. Phần này chính Là "Phân tích”.
 
-Tiếp theo phần HOW mà sinh viên nắm vững là “Thiết kế chương trình”
+Tiếp theo phần HOW mà sinh viên nắm vững là **“Thiết kế chương trình”.**
 
 **WHO?**  
 Sinh viên cần trình bày công việc của mình là gì, quan hệ với toàn bộ nhóm phát triển. Rất nhiều trường hợp nhiều sinh viên, hoặc sinh viên và nhiều Lập trình viên cùng làm một System tại nơi thực tập. Khi trình bày sinh viên tranh công hết của các bạn khác, kết quả luôn là phản tác dụng vì Hội đồng chấm tốt nghiệp luôn tinh mắt, sau vài câu hỏi mẹo là sẽ biết hết.
@@ -104,7 +104,7 @@ Bài toán được Tin học hóa cho khách hàng nào, phạm vi bài toàn l
 
 
 **C/ Một số lỗi thường gặp:**  
-1/ Bất cứ khái niệm khoa học nào khi trình bày đều phải có giới thiêu/ cắt nghĩa nó là cái gì/ tại sao là trình bày. Nhiều sinh viên nói ngay một cái tên lạ, coi như khán thính giả ai cũng biết nó rồi, tiếp sau là ba hoa về một thứ không ai quan tâm vì không biết nó là gì. Đối tượng mang bạn gái đến tiệc Sinh nhật, không giới thiệu gì mà cắm cúi ăn, trong khi bạn bè lại thấy người mới già dặn quá thi nhau chào là bác vì tưởng là mẹ của đối tượng.
+1/ Bất cứ khái niệm khoa học nào khi trình bày đều phải có giới thiệu/ cắt nghĩa nó là cái gì/ tại sao là trình bày. Nhiều sinh viên nói ngay một cái tên lạ, coi như khán thính giả ai cũng biết nó rồi, tiếp sau là ba hoa về một thứ không ai quan tâm vì không biết nó là gì. Đối tượng mang bạn gái đến tiệc Sinh nhật, không giới thiệu gì mà cắm cúi ăn, trong khi bạn bè lại thấy người mới già dặn quá thi nhau chào là bác vì tưởng là mẹ của đối tượng.
 
 2/ Không quan tâm đến người nghe, trong khi lại đòi người nghe quan tâm tới mình. Hội đồng cho 15 phút, thì mình hãy trình bày rõ ràng mạch lạc, chính xác vấn đề trong vòng 12-14 phút tặng cho Hội đồng 2-3 phút yên tĩnh không phá quấy, đó là quan tâm đến sức khỏe của hội đồng, Hội đồng sẽ có lòng nhân hậu tặng thêm điểm thưởng cho người biết luật vàng “Khách hàng là thượng đế”.
 
@@ -113,8 +113,8 @@ Bài toán được Tin học hóa cho khách hàng nào, phạm vi bài toàn l
 **D/ Ăn mặc và tác phong:**  
 1/ Ăn mặc đẹp, trang trọng, đầu tóc gọn gàng. Thống kê cho biết tỷ lệ người xinh đẹp được CSGT tha lỗi vi phạm giao thông là áp đảo so với người kém xinh.
 
-2/ Đi lên bục phát biểu đường hoàng, trình bày tránh nói nhanh như súng liên thanh, nói lý nhí như phạm lỗi, nói khoa trương như với đàn em, nói nhát gừng/ đanh thép như Bầu Kiên
+2/ Đi lên bục phát biểu đường hoàng, trình bày tránh nói nhanh như súng liên thanh, nói lý nhí như phạm lỗi, nói khoa trương như với đàn em, nói nhát gừng/ đanh thép như Bầu Kiên.
 
 
 ****
-_TrungLD_
+_TrungLD, HUST_
