@@ -31,7 +31,7 @@ Tui vậy, tôi không mong các bạn phải đợi 5 năm sau mới sống vui
 
 #### TÔI VIẾT THƯ NÀY ĐỂ GIÚP BẠN CHUẨN BỊ SỐNG VUI CHO DÙ BẤT KỲ ĐIỀU GÌ XẢY RA SAU TỐT NGHIỆP:
 
-Lâu lắm rồi, khoảng 5000 năm trước có một đồng chí (Không biết có phải cựu sinh viên BKHN không) nói rằng căn nguyên của mọi khổ não là “Tham, Sân, Si”. Vậy các bạn hãy từ bỏ 3 điều trên trước và sau khi Bảo vệ tốt nghiệp là sẽ “Life is beautiful”.
+Lâu lắm rồi, khoảng 5000 năm trước có một đồng chí (Không biết có phải cựu sinh viên BKHN không) nói rằng căn nguyên của mọi khổ não là **“Tham, Sân, Si”**. Vậy các bạn hãy từ bỏ 3 điều trên trước và sau khi Bảo vệ tốt nghiệp là sẽ “Life is beautiful”.
 
 **THAM:**  
 Khi bảo vệ thì đừng tham quá. Thượng đế công bằng và cho mọi người đều có quyền được ngu. Bản thân tôi cũng ngu không hơn hay kém bạn. Lần tôi Bảo vệ năm 1991, không phải tất cả các Thầy trong hội đồng cho tôi điểm tối đa, thầy Nguyễn Văn Ba phản biện cho tôi 9 điểm thôi không được như thầy Hoàng Anh Việt cho 10 toàn tập bây giờ đâu.
@@ -64,7 +64,7 @@ Hãy là người chuyên nghiệp, thi gì cũng phải hết sức cho dù đ�
 Tham chiếu: Bài Post của thầy Lê Đức Trung trong Group SOICT, xin dẫn chứng dưới đây:
 
 **THAY CHO LỜI HƯỚNG DẪN TRÌNH BÀY TỐT NGHIÊP**  
-_Dear các em Sinh viên thầy Hùng/ Trung hương dẫn
+_Dear các em Sinh viên thầy Hùng/ Trung hướng dẫn
 Và Dear các em khác…_
 
 
