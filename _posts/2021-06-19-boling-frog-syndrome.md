@@ -42,6 +42,7 @@ Bài học rút ra ở đây là gì? Đó là luộc ếch phải bằng nướ
 .  
 
 Đó không hẳn là ý mà tôi muốn nói ở bài đăng này, mà chính là quy luật:  
+
 {: .box-note}
 Con người thường phản xạ rất nhanh trước những biến đổi đột ngột, nhưng lại không hề phòng bị trước những biến đổi từ từ.
 
