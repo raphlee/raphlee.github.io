@@ -41,7 +41,7 @@ Bài học rút ra ở đây là gì? Đó là luộc ếch phải bằng nướ
 .  
 .  
 
-Đó không hẳn là ý mà tôi muốn nói ở bài đăng này, mà chính là quy luật:  
+Đó không hẳn là ý mà tôi muốn nói ở bài đăng này, mà chính là quy luật:
 
 {: .box-note}
 Con người thường phản xạ rất nhanh trước những biến đổi đột ngột, nhưng lại không hề phòng bị trước những biến đổi từ từ.
@@ -81,3 +81,12 @@ Hãy trở thành một con ếch thông minh, ham học hỏi, chịu khó quan
 
 ***
 Nguồn [_toidicodedao_](https://toidicodedao.com/2017/06/01/ech-tan-gai-va-lap-trinh-vien/).
+
+***
+Như vậy là toàn bộ (không, phần lớn) các post từ blog [World-Min](http://world-min.blogspot.com/) đã được tổng hợp vào đây rồi, hê :D.
+
+Các post ở blog [Minn-Game](https://minmin66.wordpress.com/) và các post về sau sẽ chú tâm hơn vào technical.
+
+***
+Thân ái,  
+_Raphael_
