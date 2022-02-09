@@ -68,11 +68,9 @@ Asset: [Fingers - Touch Gestures for Unity](https://assetstore.unity.com/package
 ### 9. Amazon Post Office
 Hiện tại dịch vụ chuyển phát của Amazon chưa chạm tới Việt Nam (chưa support) nên khi đăng ký tài khoản Amazon, chúng ta không nên đăng ký bất kỳ địa chỉ bưu điện nào ở Việt Nam.
 
-Có một dịch vụ chuyển phát trung gian có tên Hợp Nhất. Doanh nghiệp này liên kết với mạng lưới chuyển phát của Amazon tại Hoa Kỳ và Việt Nam. Ta có thể dùng dịch vụ này và lấy địa chỉ bưu điện do Hợp Nhất cung cấp (bưu điện ở Hoa Kỳ) để đăng ký Amazon.
+Có một dịch vụ chuyển phát trung gian có tên [Hợp Nhất](https://hopnhat.com/van-chuyen-hang-hoa-den-kho-amazon). Doanh nghiệp này liên kết với mạng lưới chuyển phát của Amazon tại Hoa Kỳ và Việt Nam. Ta có thể dùng dịch vụ này và lấy địa chỉ bưu điện do [Hợp Nhất](https://hopnhat.com/van-chuyen-hang-hoa-den-kho-amazon) cung cấp (bưu điện ở Hoa Kỳ) để đăng ký Amazon.
 
-Khi đơn hàng được chuyển về, Hợp Nhất sẽ vận chuyển về Việt Nam và tính phí dựa vào việc chuyển phát này.
-
-Link: [Hợp Nhất](https://hopnhat.com/van-chuyen-hang-hoa-den-kho-amazon)
+Khi đơn hàng được chuyển về, [Hợp Nhất](https://hopnhat.com/van-chuyen-hang-hoa-den-kho-amazon) sẽ vận chuyển về Việt Nam và tính phí dựa vào việc chuyển phát này.
 
 
 ### 10. PORT
@@ -100,8 +98,7 @@ The range 49152–65535 (2^15 + 2^14 to 2^16 − 1) contains dynamic or private 
 
 ### 11. Unity iOS build via sh
 Requires:
-- Generated password by iTuneConnect to validate/upload
-    - URL: [AppleID Account Manage](https://appleid.apple.com/account/manage)
+- Generated password by iTuneConnect to validate/upload in: [AppleID Account Manage](https://appleid.apple.com/account/manage)
 
 - Provisioning Profile must compatible with Cerfiticate that machine registered on iTuneConnect. And it must be iOS Distribution type to allows upload.
 
@@ -115,8 +112,8 @@ security unlock-keychain -p ``<password> <login.keychain>``
 {: .box-note}
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 
-- Fatal error: “Please provide an auth token with USYM_UPLOAD_AUTH_TOKEN environment variable
-    - In iOSPostProcessBuild:
+- Fatal error: “Please provide an auth token with USYM_UPLOAD_AUTH_TOKEN environment variable"
+    - In iOSPostProcessBuild we add:
 
 {: .box-note}
 project.SetBuildProperty(guid, “USYM_UPLOAD_AUTH_TOKEN”, “FakeToken”);
@@ -145,13 +142,13 @@ Cây **octree** là một cấu trúc dữ liệu dạng cây mà mỗi nút tro
 
 
 ### 15. Junction Folders
+
+Any changes will occurs in both folders
+
 On Window: 
 
 {: .box-note}
 mklink /J “path/to/folder/A” “path/to/folder/B”
-
-(Any changes will occurs in both folders)
-
 
 On MacOS:
 
