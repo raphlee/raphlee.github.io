@@ -33,7 +33,10 @@ You can create an automation app that do something for you like run shell script
 To run app when login, simply add the automation app to Login item on Settings.
 
 
-Maybe you can create a plist file (config to RunAtLoad (run at login) that have arguments that refer to specific shell script path, and then add to launch via command: launchctl load ``<plist file>``
+Maybe you can create a plist file (config to RunAtLoad (run at login) that have arguments that refer to specific shell script path, and then add to launch via command: 
+
+{: .box-note}
+launchctl load ``<plist file>``
 
 This way everytimes you login, the service will run automatically by system.
 
@@ -48,8 +51,7 @@ Color Harmony: [Link](https://www.tigercolor.com/color-lab/color-theory/color-ha
 
 
 ### 7. Shadow and things
-We can use Depth setup for Camera to capture the Depth of scene then use that capture as RawImage Texture to apply to surface’s material to draw shadow on that. 
-
+We can use Depth setup for Camera to capture the Depth of scene then use that capture as RawImage Texture to apply to surface’s material to draw shadow on that.  
 -> That requires writing a shader to adapt shadow implementation.
 
 Idea: [Idea Link](https://www.littlechicken.nl/shadows/)
@@ -82,35 +84,36 @@ Link: [Hợp Nhất](https://hopnhat.com/van-chuyen-hang-hoa-den-kho-amazon)
 [Wikipedia List Ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
 
-**Well-known ports**
-
+**Well-known ports**  
 The port numbers in the range from 0 to 1023 (0 to 2^10 − 1) are the well-known ports or system ports.
 
-**Registered ports**
-
+**Registered ports**  
 The range of port numbers from 1024 to 49151 (2^10 to 2^14 + 2^15 − 1) are the [Registered ports](https://en.wikipedia.org/wiki/Registered_port).
 
 
-**Dynamic, private or ephemeral ports**
-
+**Dynamic, private or ephemeral ports**  
 The range 49152–65535 (2^15 + 2^14 to 2^16 − 1) contains dynamic or private ports that cannot be registered with IANA. 
 
-***
-- 22: Secure Shell (SSH), secure logins, file transfers (scp, sftp) and port forwarding
-- 80, 8080: HTTP
-- 443: HTTPS
-- 4848: GlassFish server
+
+| Port | Represent |
+| :------ |:--- |
+| 22 | Secure Shell (SSH), secure logins, file transfers (scp, sftp) and port forwarding |
+| 80, 8080 | HTTP |
+| 443 | HTTPS |
+| 4848 | GlassFish server |
 
 
 ### 11. Unity iOS build via sh
 Requires:
 - Generated password by iTuneConnect to validate/upload
-    - URL: https://appleid.apple.com/account/manage
+    - URL: [AppleID Account Manage](https://appleid.apple.com/account/manage)
 
 - Provisioning Profile must compatible with Cerfiticate that machine registered on iTuneConnect. And it must be iOS Distribution type to allows upload.
 
 - Unlock keychain on its session (put unlock command inside sh file) before build xcode.
-    - Security unlock-keychain -p ``<password> <login.keychain>``
+
+{: .box-note}
+security unlock-keychain -p ``<password> <login.keychain>``
 
 - Xcode-select error: tool ‘x’ requires Xcode, but...
 
@@ -118,8 +121,10 @@ Requires:
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 
 - Fatal: “Please provide an auth token with USYM_UPLOAD_AUTH_TOKEN environment variable
-    - iOSPostProcessBuild 
-        - project.SetBuildProperty(guid, “USYM_UPLOAD_AUTH_TOKEN”, “FakeToken”);
+    - iOSPostProcessBuild
+
+{: .box-note}
+project.SetBuildProperty(guid, “USYM_UPLOAD_AUTH_TOKEN”, “FakeToken”);
 
 - On Unity 2019.x, in build command, you must provide account and serial id to avoid this “USYM_UPLOAD_AUTH_TOKEN” fatal error above.
 
@@ -129,18 +134,17 @@ When an app is opt-in to build app bundle aab file. This have 2 different SHA-1 
 
 So when you create game service (achievement, leaderboard, etc) you must link app 2 times with different SHA-1 to avoid error sign in.
 
-You need to notice things on: https://console.developers.google.com/
-
+You need to notice things on: [Google Developer Console](https://console.developers.google.com/)  
 Maybe you have to add extra OAuth Client IDs on Credentials.
 
 ### 13. Shell script
+
 {: .box-note}
 VARIABLE=$(Command)
 
 
 ### 14. Octree
-[Wikipedia - Octree](https://vi.wikipedia.org/wiki/Octree)
-
+[Wikipedia - Octree](https://vi.wikipedia.org/wiki/Octree)  
 [GameDev - Introduction to Octrees](https://www.gamedev.net/articles/programming/general-and-gameplay-programming/introduction-to-octrees-r3529/)
 
 Cây **octree** là một cấu trúc dữ liệu dạng cây mà mỗi nút trong có chính xác tám con. Cây octree thường được sử dụng để phân chia không gian ba chiều bằng việc chia đệ quy không gian ra thành 8 phần. Cây octree là một cấu trúc trong không gian ba chiều tương tự như cây quadtree.
@@ -160,19 +164,17 @@ On MacOS:
 {: .box-note}
 ln -s “path/to/folder/A” “path/to/folder/B”
 
+
 ### 16. Exclusion Lower-end Device on Google Play
-On Device-Catalog
+On Device-Catalog:
 
-
-- Choose device
-
+- Choose device  
 OR
-
 - Create rules to filter
 
 
 ### 17. Unity Asset Compression
-- For Texture: [Texture Compression](http://blog.theknightsofunity.com/wrong-import-settings-killing-unity-game-part-1/)
 
+- For Texture: [Texture Compression](http://blog.theknightsofunity.com/wrong-import-settings-killing-unity-game-part-1/)
 - For Audio: [Audio Compresion](https://blog.theknightsofunity.com/wrong-import-settings-killing-unity-game-part-2/)
 
