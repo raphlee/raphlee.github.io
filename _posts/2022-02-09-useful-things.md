@@ -9,7 +9,7 @@ tags: [useful, thing]
 You can also open a terminal window in your 'SDK\tools\bin' folder... and type:
 
 {: .box-note}
-sdkmanager "ndk-bundle" "ndk;19.0.5232133"
+``sdkmanager "ndk-bundle" "ndk;19.0.5232133"``
 
 This should download and install the required NDK version inside your SDK folder. You can later move it to another location or reference it from this one.
 
@@ -35,7 +35,7 @@ To run app when login, simply add the automation app to Login item on Settings.
 Maybe you can create a plist file (config to RunAtLoad (run at login) that have arguments that refer to specific shell script path, and then add to launch via command: 
 
 {: .box-note}
-launchctl load ``<plist file>``
+``launchctl load <plist file>``
 
 This way everytimes you login, the service will run automatically by system.
 
@@ -105,18 +105,18 @@ Requires:
 - Unlock keychain on its session (put unlock command inside sh file) before build xcode.
 
 {: .box-note}
-security unlock-keychain -p ``<password> <login.keychain>``
+``security unlock-keychain -p <password> <login.keychain>``
 
 - Xcode-select error: tool ‘x’ requires Xcode, but...
 
 {: .box-note}
-sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+``sudo xcode-select -s /Applications/Xcode.app/Contents/Developer``
 
 - Fatal error: “Please provide an auth token with USYM_UPLOAD_AUTH_TOKEN environment variable"
     - In iOSPostProcessBuild we add:
 
 {: .box-note}
-project.SetBuildProperty(guid, “USYM_UPLOAD_AUTH_TOKEN”, “FakeToken”);
+``project.SetBuildProperty(guid, “USYM_UPLOAD_AUTH_TOKEN”, “FakeToken”);``
 
 - On Unity 2019.x, in build command, you must provide account and serial id to avoid this “USYM_UPLOAD_AUTH_TOKEN” fatal error above.
 
@@ -131,7 +131,7 @@ Maybe you have to add extra OAuth Client IDs on Credentials.
 ### 13. Shell script
 
 {: .box-note}
-VARIABLE=$(Command)
+``VARIABLE=$(Command)``
 
 
 ### 14. Octree
@@ -148,12 +148,12 @@ Any changes will occurs in both folders
 On Window: 
 
 {: .box-note}
-mklink /J “path/to/folder/A” “path/to/folder/B”
+``mklink /J “path/to/folder/A” “path/to/folder/B”``
 
 On MacOS:
 
 {: .box-note}
-ln -s “path/to/folder/A” “path/to/folder/B”
+``ln -s “path/to/folder/A” “path/to/folder/B”``
 
 
 ### 16. Exclusion Lower-end Device on Google Play
