@@ -8,8 +8,10 @@ tags: [useful, thing]
 ### 1. Download Custom NDK via command
 You can also open a terminal window in your _'SDK\tools\bin'_ folder... and type:
 
-{: .box-note}
-``sdkmanager "ndk-bundle" "ndk;19.0.5232133"``
+
+```console
+sdkmanager "ndk-bundle" "ndk;19.0.5232133"
+```
 
 This should download and install the required NDK version inside your SDK folder. You can later move it to another location or reference it from this one.
 
@@ -104,19 +106,22 @@ Requires:
 
 - Unlock keychain on its session (put unlock command inside sh file) before build xcode.
 
-{: .box-note}
-``security unlock-keychain -p <password> <login.keychain>``
+```console
+security unlock-keychain -p <password> <login.keychain>
+```
 
 - Xcode-select error: tool ‘x’ requires Xcode, but...
 
-{: .box-note}
-``sudo xcode-select -s /Applications/Xcode.app/Contents/Developer``
+```console
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
 
 - Fatal error: “Please provide an auth token with USYM_UPLOAD_AUTH_TOKEN environment variable"
     - In iOSPostProcessBuild we add:
 
-{: .box-note}
-``project.SetBuildProperty(guid, “USYM_UPLOAD_AUTH_TOKEN”, “FakeToken”);``
+```cs
+project.SetBuildProperty(guid, “USYM_UPLOAD_AUTH_TOKEN”, “FakeToken”);
+```
 
 - On Unity 2019.x, in build command, you must provide account and Serial ID to avoid this “USYM_UPLOAD_AUTH_TOKEN” fatal error above.
 
@@ -131,8 +136,9 @@ Maybe you have to add extra OAuth Client IDs on Credentials.
 
 ### 13. Shell script
 
-{: .box-note}
-``VARIABLE=$(Command)``
+```console
+VARIABLE=$(Command)
+```
 
 
 ### 14. Octree
@@ -148,13 +154,15 @@ Any changes will occurs in both folders
 
 On Window: 
 
-{: .box-note}
-``mklink /J “path/to/folder/A” “path/to/folder/B”``
+```console
+mklink /J “path/to/folder/A” “path/to/folder/B”
+```
 
 On MacOS:
 
-{: .box-note}
-``ln -s “path/to/folder/A” “path/to/folder/B”``
+```console
+ln -s “path/to/folder/A” “path/to/folder/B”
+```
 
 
 ### 16. Exclusion Lower-end Device on Google Play
@@ -170,3 +178,90 @@ OR
 - For Texture: [Texture Compression](http://blog.theknightsofunity.com/wrong-import-settings-killing-unity-game-part-1/).
 - For Audio: [Audio Compression](https://blog.theknightsofunity.com/wrong-import-settings-killing-unity-game-part-2/).
 
+
+### 18. Temporary Backup Files on Unity
+
+- Unity actually saves your scene anytime you hit the play button. So if you happen to have caused unity to crash in play mode, you might be in luck.
+- Before you re-open Unity again, go to direction below, in here you'll find either one or a list of .backup files. These files were scenes that were loaded during play mode when it crashed.
+
+```console
+"/path/to/your/Unity/project/Temp/__Backupscenes/xyz.backup"
+```
+
+- So if you rename these to a .unity files and copy them out and back to your Assets folder, you have a somewhat auto saved version of your files.
+
+
+### 19. Locking and Duplicating the Unity Inspector
+
+- To add another Inspector (duplicate), follows the image below:
+
+![Duplicate Inpector](/assets/img/duplicate-inspector.png){: .mx-auto.d-block :}
+
+
+### 20. Swap inherited Components in Unity Debug Mode
+
+- Only works in **inherited Components**. In Debug Mode you can do:
+
+![Swap Inherited Component](/assets/img/swap-inherited-comp.png){: .mx-auto.d-block :}
+
+
+### 21. Polymorphic Lists
+
+- Add attribute **[SerializeReference]** to your list as example:
+
+```cs
+[CreateAssetMenu(menuName = "Polymorphic SO")]
+public class PolymorphicSO : ScriptableObject
+{  
+    [SerializeReference]  
+    public List<BaseClass> lists = new List<BaseClass>();
+}
+
+/// The base and child classes.
+[Serializable]
+public class BaseClass
+{
+    public int Integer;
+}
+
+[Serializable]
+public class ChildClass : BaseClass
+{
+    public string String;
+}
+```
+
+### 22. Get icons from Unity Objects
+
+```cs
+EditorGUIUtility.ObjectContent(CreateInstance<T>(), typeof(T));
+```
+
+- You can find Unity Default Icon name in this [Unity Icon](https://github.com/halak/unity-editor-icons), by using:
+
+```cs
+EditorGUIUtility.IconContent("SceneAsset Icon").image;
+```
+
+
+### 23. Embedded SO Editing
+
+- You can you API below to draw your SO inside other Component's inspector. [API Link](https://docs.unity3d.com/ScriptReference/Editor.CreateCachedEditor.html).
+
+```cs
+Editor.CreateCachedEditor
+```
+
+- By this API, you can create an PropertyAttribute to add to your SO properties, the a custom PropertyDrawer to draw it as following:
+
+![Custom PropertyDrawer](/assets/img/custom-drawer.png){: .mx-auto.d-block :}
+
+
+### 24. Another Unity stuff
+
+- [Modal Window](https://docs.unity3d.com/2020.1/Documentation/ScriptReference/EditorWindow.ShowModal.html) that prevent you click outside.
+
+- **[MovedFrom]** Attribute is useful when you need to change className or moving its type and doesn't want to loose any data on it.
+```cs
+[UnityEngine.Scripting.APIUpdating.MovedFrom(string sourceName, bool isInDifferentAssembly)]
+```
