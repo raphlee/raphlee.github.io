@@ -36,8 +36,9 @@ To run app when login, simply add the automation app to Login item on Settings.
 
 Maybe you can create a plist file (config to RunAtLoad (run at login)) that have arguments that refer to specific shell script path, and then add to launch via command: 
 
-{: .box-note}
-``launchctl load <plist file>``
+```console
+launchctl load <plist file>
+```
 
 This way everytimes you login, the service will run automatically by system.
 
@@ -104,26 +105,29 @@ Requires:
 
 - Provisioning Profile must compatible with Cerfiticate that machine registered on iTuneConnect. And it must be iOS Distribution type to allows upload.
 
-- Unlock keychain on its session (put unlock command inside sh file) before build xcode.
+- Unlock keychain on its session (put _unlock_ command inside sh file) before build XCode.
 
 ```console
 security unlock-keychain -p <password> <login.keychain>
 ```
+<br/>
 
-- Xcode-select error: tool ‘x’ requires Xcode, but...
+- XCode-select error: tool _‘x’_ requires XCode, but...
 
 ```console
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 ```
+<br/>
 
-- Fatal error: “Please provide an auth token with USYM_UPLOAD_AUTH_TOKEN environment variable"
-    - In iOSPostProcessBuild we add:
-
+- Fatal error: “Please provide an auth token with **USYM_UPLOAD_AUTH_TOKEN** environment variable"
+    - In _iOSPostProcessBuild_ we add:
+    
 ```cs
-project.SetBuildProperty(guid, “USYM_UPLOAD_AUTH_TOKEN”, “FakeToken”);
+project.SetBuildProperty(guid, "USYM_UPLOAD_AUTH_TOKEN", "FakeToken");
 ```
+<br/>
 
-- On Unity 2019.x, in build command, you must provide account and Serial ID to avoid this “USYM_UPLOAD_AUTH_TOKEN” fatal error above.
+- On Unity 2019.x, in build command, you must provide account and Serial ID to avoid this **“USYM_UPLOAD_AUTH_TOKEN”** fatal error above.
 
 
 ### 12. Android SHA-1 Cerfiticate
@@ -155,13 +159,13 @@ Any changes will occurs in both folders
 On Window: 
 
 ```console
-mklink /J “path/to/folder/A” “path/to/folder/B”
+mklink /J "path/to/folder/A" "path/to/folder/B"
 ```
 
 On MacOS:
 
 ```console
-ln -s “path/to/folder/A” “path/to/folder/B”
+ln -s "path/to/folder/A" "path/to/folder/B"
 ```
 
 
@@ -187,6 +191,7 @@ OR
 ```console
 "/path/to/your/Unity/project/Temp/__Backupscenes/xyz.backup"
 ```
+<br/>
 
 - So if you rename these to a .unity files and copy them out and back to your Assets folder, you have a somewhat auto saved version of your files.
 
@@ -236,6 +241,7 @@ public class ChildClass : BaseClass
 ```cs
 EditorGUIUtility.ObjectContent(CreateInstance<T>(), typeof(T));
 ```
+<br/>
 
 - You can find Unity Default Icon name in this [Unity Icon](https://github.com/halak/unity-editor-icons), by using:
 
@@ -246,11 +252,12 @@ EditorGUIUtility.IconContent("SceneAsset Icon").image;
 
 ### 23. Embedded SO Editing
 
-- You can you API below to draw your SO inside other Component's inspector. [API Link](https://docs.unity3d.com/ScriptReference/Editor.CreateCachedEditor.html).
+- You can you [API](https://docs.unity3d.com/ScriptReference/Editor.CreateCachedEditor.html) below to draw your SO inside other Component's inspector.
 
 ```cs
 Editor.CreateCachedEditor
 ```
+<br/>
 
 - By this API, you can create an PropertyAttribute to add to your SO properties, the a custom PropertyDrawer to draw it as following:
 
