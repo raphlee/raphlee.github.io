@@ -5,7 +5,7 @@ readtime: true
 tags: [english, fun]
 ---
 
-1. Some casual sentences with their meanings
+### 1. Some casual sentences with their meanings
 
 | Sentences | Meanings |
 | :------ | :--- |
@@ -21,7 +21,7 @@ tags: [english, fun]
 | To make it | To be successful |
 
 
-2. Simple make advanced
+### 2. Simple make advanced
 
 | Phrases | Advanced meanings | Example |
 | :------ | :--- | :--- |
@@ -29,15 +29,15 @@ tags: [english, fun]
 | **Do** | To show and emphasize | I do not like other people in general, but I **do** love you. |
 | **Bet** | To be almost certain | I **bet** the weather is nice tommorow. |
 
-3. Frequently
+### 3. Frequently
 
 ![Frequently](/assets/img/frequently.png){: .mx-auto.d-block :}
 
-4. Keep
+### 4. Keep
 
 ![Keep](/assets/img/keep.png){: .mx-auto.d-block :}
 
-5. 'Must' vs 'Have to'
+### 5. 'Must' vs 'Have to'
 
 - Có cùng nghĩa là "phải làm gì đó", nhưng: 
 
@@ -46,7 +46,7 @@ tags: [english, fun]
 | **Must** | mang tính khách quan |  
 | **Have to** | mang tính chủ quan |
 
-6. The
+### 6. The
 
 - Chỉ một vật, sự vật cụ thể
 
@@ -58,4 +58,4 @@ tags: [english, fun]
 | Nhắc đến nhạc cụ | The guitar, The piano, ... |
 | Chỉ thứ tự và dùng trong câu so sánh cao nhất | The best, The first, The second, ...
 
-7. ...
+### 7. ...
