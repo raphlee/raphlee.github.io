@@ -273,6 +273,12 @@ Editor.CreateCachedEditor
 [UnityEngine.Scripting.APIUpdating.MovedFrom(string sourceName, bool isInDifferentAssembly)]
 ```
 
+
 ### 25. Outline
 
 - [5 Ways to Draw an Outline](https://alexanderameye.github.io/notes/rendering-outlines/)
+
+
+
+### 26. What the technology behind a website?
+ - [Built With](https://builtwith.com/) cho phép chúng ta có thể tìm hiểu xem 1 trang web được xây dựng từ những công nghệ nào? Với chúng, người đọc có thể tìm hiểu xem các công nghệ nào đang được các trang web nổi tiếng sử dụng nhiều nhất, hay một công nghệ cụ thể nào đang được các website ở quốc gia X sử dụng phổ biến.
