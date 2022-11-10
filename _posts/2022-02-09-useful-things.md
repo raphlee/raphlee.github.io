@@ -272,3 +272,7 @@ Editor.CreateCachedEditor
 ```cs
 [UnityEngine.Scripting.APIUpdating.MovedFrom(string sourceName, bool isInDifferentAssembly)]
 ```
+
+### 25. Outline
+
+- [5 Ways to Draw an Outline](https://alexanderameye.github.io/notes/rendering-outlines/)
