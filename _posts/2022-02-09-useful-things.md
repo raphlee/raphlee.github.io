@@ -278,7 +278,47 @@ Editor.CreateCachedEditor
 
 - [5 Ways to Draw an Outline](https://alexanderameye.github.io/notes/rendering-outlines/)
 
+```
+* Rim Effects
+* Vertex Extrusion
+* Blurred Buffer
+* Jump Flood Algorithm
+* Edge Detection
+```
 
 
 ### 26. What the technology behind a website?
  - [Built With](https://builtwith.com/) cho phép chúng ta có thể tìm hiểu xem 1 trang web được xây dựng từ những công nghệ nào? Với chúng, người đọc có thể tìm hiểu xem các công nghệ nào đang được các trang web nổi tiếng sử dụng nhiều nhất, hay một công nghệ cụ thể nào đang được các website ở quốc gia X sử dụng phổ biến.
+
+
+ ### 27. Download old version of Unity Firebase
+
+ - You can use the magic link
+
+ ```
+https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_${version}.zip
+```
+
+- For example:  
+https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_9.6.0.zip
+https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_9.9.0.zip
+
+
+### 28. iOS Homebar.
+
+- HIDE HOME BUTTON ON IPHONE X:
+
+This setting hides the home indicator after a certain inactivity delay. If the user taps on the screen, the home indicator appears again in its full bright glory. In a game, where you will tap all the time, it's the same as showing the indicator permanently.
+
+<center><video src="/assets/vid/hide_x.mp4" controls="controls" style="max-width: 730px;"> 
+</video></center>
+
+- DEFER SYSTEM GESTURES ON EDGES
+
+It does two things:
+
+The home indicator opacity is reduced, which makes it less bright. Perfect.
+To go back to the home screen, you have to do the gesture twice. This is also nice, since it prevents accidental gestures.
+
+<center><video src="/assets/vid/defer.mp4" controls="controls" style="max-width: 730px;">
+</video></center>
