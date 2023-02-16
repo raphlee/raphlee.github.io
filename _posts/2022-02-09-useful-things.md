@@ -292,17 +292,17 @@ Editor.CreateCachedEditor
 
 
 
- ### 27. Download old version of Unity Firebase
+### 27. Download old version of Unity Firebase
 
  - You can use the magic link
 
  ```
-https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_${version}.zip
+https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_{version}.zip
 ```
 
 - For example:  
-[https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_9.6.0.zip](https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_9.6.0.zip)
-[https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_9.9.0.zip](https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_9.9.0.zip)
+[9.6.0.zip](https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_9.6.0.zip)  
+[9.9.0.zip](https://dl.google.com/firebase/sdk/unity/firebase_unity_sdk_9.9.0.zip)
 
 
 
@@ -319,8 +319,8 @@ This setting hides the home indicator after a certain inactivity delay. If the u
 
 It does two things:
 
-The home indicator opacity is reduced, which makes it less bright. Perfect.
-To go back to the home screen, you have to do the gesture twice. This is also nice, since it prevents accidental gestures.
+1. The home indicator opacity is reduced, which makes it less bright. Perfect.  
+2. To go back to the home screen, you have to do the gesture twice. This is also nice, since it prevents accidental gestures.
 
 <center><video src="/assets/vid/defer.mp4" controls="controls" style="max-width: 320px;">
 </video></center>
