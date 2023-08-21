@@ -45,7 +45,18 @@ This way everytimes you login, the service will run automatically by system.
 
 ### 5. Lighting
 
-Tips: [7 tips for better lighting in Unity](https://medium.com/@EightyLevel/7-tips-for-better-lighting-in-unity-686694892ece)
+Tips: [7 tips for better lighting in Unity](https://medium.com/@EightyLevel/7-tips-for-better-lighting-in-unity-686694892ece) by [80Level](https://medium.com/@EightyLevel), website: https://80.lv/.
+
+Things is, this is for non-mobile devices, keep that in mind.
+```
+1 - Use Linear Color Space (For non mobile)
+2 - Use Global Illumination (GI) — for more realistic lighting
+3 - Color Harmony - see <pre><a href="/#6-color">Color</a></pre>
+4 - Use very Light Colors, Don’t use Over Saturated colors!
+5 - Play with Lights — change Light Direction and Shadows to get different results.
+6 - Play with Ambient Color to change shadows color.
+7 - Use Post-Processing image effects.
+```
 
 
 ### 6. Color
@@ -63,6 +74,8 @@ Projector:
 Mobile Essential: [Unity Pack Demo](https://www.youtube.com/watch?v=uCAonqAOeTY&list=PLX2vGYjWbI0TqhYQCgUgrS_KACZadVRXU&index=7)  
 Shader Mobile: [Mobile Shader Essentials: Lit/Unlit](https://assetstore.unity.com/packages/vfx/shaders/mobile-shader-essentials-lit-unlit-138629)
 
+
+CG Documentation: [NVIDIA Developer Zone](https://developer.download.nvidia.com/cg/index.html)
 
 ### 8. Gestures
 Asset: [Fingers - Touch Gestures for Unity](https://assetstore.unity.com/packages/tools/input-management/fingers-touch-gestures-for-unity-41076)
@@ -182,6 +195,9 @@ OR
 - For Texture: [Texture Compression](http://blog.theknightsofunity.com/wrong-import-settings-killing-unity-game-part-1/).
 - For Audio: [Audio Compression](https://blog.theknightsofunity.com/wrong-import-settings-killing-unity-game-part-2/).
 
+```
+Keep in mind that sometimes you will need to build your game before you will see it’s target size.
+```
 
 ### 18. Temporary Backup Files on Unity
 
@@ -324,3 +340,9 @@ It does two things:
 
 <center><video src="/assets/vid/defer.mp4" controls="controls" style="max-width: 320px;">
 </video></center>
+
+
+### 29. Rx in practices
+
+- Here is [101 Rx Samples](http://rxwiki.wikidot.com/101samples) of Rx's usage.
+
