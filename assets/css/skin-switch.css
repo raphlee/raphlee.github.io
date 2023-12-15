@@ -36,11 +36,12 @@
     transition: margin 0.3s ease-in-out;
     margin: 0 0.8rem 0 0;
   }
-  #change-skin:hover .skin-btn {
+  /* #change-skin:hover .skin-btn {
     margin: 0 0 0 0.8rem;
-  }
+  } */
   #change-skin .dark-mode {
     display: none;
+    margin: 0 0 0 0.8rem;
   }
   .page-dark-mode #change-skin {
     background: #242526;
