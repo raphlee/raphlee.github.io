@@ -388,3 +388,17 @@ This session is aimed for mid to advanced developers who want to get more into c
 ```cs
 Debug.Log("This is a message from me", me);
 ```
+
+### 33. Modify Unity library package
+
+- Đôi khi chúng ta cần modify (sửa) một vài script nằm trong các package mà dc install thông qua **Package Manager**. Tuy nhiên, các package này được nằm trong thự mục **/Project_Path/Libary/PackageCache/***,  mà thứ gì nằm trong thư mục **Library** đều là -_ReadOnly_.
+=> Soo, the question is: "What's we gonna do???"
+
+
+```
+1. Copy Package trong /Project_Path/Libary/PackageCache/*
+2. Paste vào thư mục: /Project_Path/Packages/
+3. Sửa script như mong muốn
+```
+
+- Về nguyên lý, Unity sẽ ưu tiên lấy những thứ trong thư mục **/Project_Path/Packages/*** trước.
