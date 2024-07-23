@@ -58,4 +58,8 @@ tags: [english, fun]
 | Nhắc đến nhạc cụ | The guitar, The piano, ... |
 | Chỉ thứ tự và dùng trong câu so sánh cao nhất | The best, The first, The second, ...
 
-### 7. ...
+### 7. Order of Adjectives (OS.AS.COMP)
+
+Opinion -> Size -> Age -> Shape -> Color -> Origin -> Material -> Purpose.
+
+### 8. ...
