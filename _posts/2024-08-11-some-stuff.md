@@ -43,7 +43,7 @@ v2f vert (appdata v)
 - Animating  
 . To animate the character, we just need to vary the sampled line based on the current time.
 
-```shader
+```
 _AnimVertexTex_TexelSize = Vector4 (1/width, 1/height, width, height)
 float animCoords = frac (_Time.y * _AnimVertexTex_TexelSize.y);
 ```
@@ -71,22 +71,14 @@ float animCoords = frac (_Time.y * _AnimVertexTex_TexelSize.y);
 | V | Final Velocity | m/s
 | A | Acceleration | m/s^2
 | T | Time | s
+|
 
----
-
-```math
-V = U + AT  
+  
+Equations:  
 ```
-```math
-S = (U + V) / 2 * T
-```
-```math
+V   = U + AT  
+S   = (U + V) / 2 * T
 V^2 = U^2 + 2 * AS  
+S   = UT + 1/2 * AT^2  
+S   = VT - 1/2 * AT^2 
 ```
-```math
-S = UT + 1/2 * AT^2  
-```
-```math
-S = VT - 1/2 * AT^2 
-```
----
