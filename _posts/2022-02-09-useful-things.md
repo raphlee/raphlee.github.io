@@ -94,14 +94,14 @@ Khi đơn hàng được chuyển về, [Hợp Nhất](https://hopnhat.com/van-c
 
 
 **Well-known ports**  
-The port numbers in the range from 0 to 1023 (0 to $2^{10}$ − 1) are the well-known ports or system ports.
+The port numbers in the range from 0 to 1023 (0 to 2^10 − 1) are the well-known ports or system ports.
 
 **Registered ports**  
-The range of port numbers from 1024 to 49151 ($2^{10}$ to $2^{14}$ + $2^{15}$ − 1) are the [Registered ports](https://en.wikipedia.org/wiki/Registered_port).
+The range of port numbers from 1024 to 49151 (2^10 to 2^14 + 2^15 − 1) are the [Registered ports](https://en.wikipedia.org/wiki/Registered_port).
 
 
 **Dynamic, private or ephemeral ports**  
-The range 49152 – 65535 ($2^{15}$ + $2^{14}$ to $2^{16}$ − 1) contains dynamic or private ports that cannot be registered with IANA. 
+The range 49152 – 65535 (2^15 + 2^14 to 2^16 − 1) contains dynamic or private ports that cannot be registered with IANA. 
 
 
 | Port Number | Represent |

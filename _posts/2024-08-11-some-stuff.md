@@ -20,7 +20,7 @@ Vector3 (x, y, z) -> Vector3 (r, g, b)
 - **SHADER**  
 . In the vertex shader, we sample the texture using the tuple [_vertexId, animFrame_]
 
-```shader
+```
 struct appdata
 {
   uint vertexId : SV_VertexID;
@@ -66,16 +66,27 @@ float animCoords = frac (_Time.y * _AnimVertexTex_TexelSize.y);
 
 | Variables | Descriptions | Unit
 | :------ |:----- |:---
-| S | Displacement | $m$
-| U | Initial Velocity | $m/s$
-| V | Final Velocity | $m/s$
-| A | Acceleration | $m/s^2$
-| T | Time | $s$
+| S | Displacement | m
+| U | Initial Velocity | m/s
+| V | Final Velocity | m/s
+| A | Acceleration | m/s^2
+| T | Time | s
 
+---
 
-
-####  $V = U + AT$
-####  $S = (U + V) / 2 * T$
-####  $V^2 = U^2 + 2 * AS$
-####  $S = UT + 1/2 * AT^2$
-####  $S = VT - 1/2 * AT^2$
+```math
+V = U + AT  
+```
+```math
+S = (U + V) / 2 * T
+```
+```math
+V^2 = U^2 + 2 * AS  
+```
+```math
+S = UT + 1/2 * AT^2  
+```
+```math
+S = VT - 1/2 * AT^2 
+```
+---
