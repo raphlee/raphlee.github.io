@@ -31,7 +31,7 @@ v2f vert (appdata v)
   float vertCoords = v.vertexId;
   float animCoords = 0;
   float4 texCoords = float4(vertCoords, animCoords, 0, 0);
-  float4 position = tex2Dlod(_AnimVertexTex, texCoords);
+  float4 position  = tex2Dlod(_AnimVertexTex, texCoords);
   
   v2f o;
   // Use position values as a standard local space coordinates
@@ -44,8 +44,8 @@ v2f vert (appdata v)
 . To animate the character, we just need to vary the sampled line based on the current time.
 
 ```
-_AnimVertexTex_TexelSize = Vector4 (1/width, 1/height, width, height)
-float animCoords = frac (_Time.y * _AnimVertexTex_TexelSize.y);
+_AnimVertexTex_TexelSize = Vector4 (1/width, 1/height, width, height);
+float animCoords         = frac (_Time.y * _AnimVertexTex_TexelSize.y);
 ```
 
 - Limitation  
@@ -66,11 +66,11 @@ float animCoords = frac (_Time.y * _AnimVertexTex_TexelSize.y);
 
 | Variables | Descriptions | Unit
 | :------ |:----- |:---
-| S | Displacement | m
-| U | Initial Velocity | m/s
-| V | Final Velocity | m/s
-| A | Acceleration | m/s^2
-| T | Time | s
+| **S** | Displacement | m
+| **U** | Initial Velocity | m/s
+| **V** | Final Velocity | m/s
+| **A** | Acceleration | m/s^2
+| **T** | Time | s
 |
 
   
@@ -82,3 +82,61 @@ V^2 = U^2 + 2 * AS
 S   = UT + 1/2 * AT^2  
 S   = VT - 1/2 * AT^2 
 ```
+
+
+***
+
+### 3. The [Blending](https://learnopengl.com/Advanced-OpenGL/Blending)
+
+- Blending in OpenGL is commonly known as the technique to implement transparency within objects
+
+```
+Blending = Src * A +- Dst * B
+```
+
+> Blending is about modify: ```A, B and Operator```
+
+
+
+| Signature | Example syntax | Note
+| :------ |:----- |:------
+| _Blend <.state>_ | _Blend Off_ | Disables blending for the default render target. This is the default value.
+| _Blend <.source factor> <.destination factor>_ | _Blend SrcAlpha OneMinusSrcAlpha_ | Alpha Blending 
+
+
+***
+
+### 4. [Bézier](https://en.wikipedia.org/wiki/B%C3%A9zier_curve)
+
+- A Bézier Curve is a parametric curve used in computer graphics and related fields. A set of discrete "control points" defines a smooth, continuous curve by means of a formula.
+
+![Linear](/assets/img/bezier_linear.gif)  ![Quadratic](/assets/img/bezier_quadratic.gif) 
+
+
+| Curve | Formula | Note
+| :------ |:----- |:------
+| Linear Bézier | _B(t) = **P0** + t * (**P1** - **P0**)_ | 2 control points ~ Lerp (Linear Interpolation)
+| Quadratic Bézier | _B(t) = (1 - t)^2 * **P0** + 2(1 - t) * t * **P1** + t^2 * **P2**_ | 3 control points
+| Cubic Bézier | ... | ...
+
+- Freya Holmér Video will explain Bézier in more details: [The Beauty of Bézier Curves](https://www.youtube.com/watch?v=aVwxzDHniEw)
+
+---
+---
+
+> **Inverse Lerp** 
+```
+t = (v - a) / (b - a)
+```
+
+![Inverse Lerp](/assets/img/inverse_lerp.gif){: .mx-auto.d-block :}
+
+---
+---
+To Uniform Animation (moving) in Bézier we use: [Arc Length Parameterization](https://math.libretexts.org/Bookshelves/Calculus/Calculus_3e_(Apex)/11%3A_Vector-Valued_Functions/11.05%3A_The_Arc_Length_Parameter_and_Curvature)
+
+
+![Introducing the arc length parameter](/assets/img/arc_length.PNG){: .mx-auto.d-block :}
+
+---
+

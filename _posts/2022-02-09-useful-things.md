@@ -402,3 +402,19 @@ Debug.Log("This is a message from me", me);
 ```
 
 - Về nguyên lý, Unity sẽ ưu tiên lấy những thứ trong thư mục **/Project_Path/Packages/*** trước.
+
+
+### 34. From PolygonCollider2D
+
+- Ta có thể create convex collider cho PolygonCollider2D khi set multiple paths. Xem [API](https://docs.unity3d.com/ScriptReference/PolygonCollider2D.SetPath.html).
+
+- Ta còn có thể export mesh base từ đó. [API](https://docs.unity3d.com/ScriptReference/Collider2D.CreateMesh.html).
+
+
+### 35. S3 - Simple Storage Service
+
+- An object storage service that offers industry-leading scalability, data availability, security, and performance.
+
+- Usages: **CDN**
+
+- Agent: [Akamai](https://www.akamai.com/)
