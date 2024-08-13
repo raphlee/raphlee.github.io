@@ -71,7 +71,6 @@ float animCoords         = frac (_Time.y * _AnimVertexTex_TexelSize.y);
 | **V** | Final Velocity | m/s
 | **A** | Acceleration | m/s^2
 | **T** | Time | s
-|
 
   
 Equations:  
@@ -94,13 +93,13 @@ S   = VT - 1/2 * AT^2
 Blending = Src * A +- Dst * B
 ```
 
-> Blending is about modify: ```A, B and Operator```
+--> Blending is about modify: ```A, B and Operator```
 
 
 
 | Signature | Example syntax | Note
 | :------ |:----- |:------
-| _Blend <.state>_ | _Blend Off_ | Disables blending for the default render target. This is the default value.
+| _Blend <.state>_ | _Blend Off_ | Disables blending. This is the default value.
 | _Blend <.source factor> <.destination factor>_ | _Blend SrcAlpha OneMinusSrcAlpha_ | Alpha Blending 
 
 
@@ -115,14 +114,16 @@ Blending = Src * A +- Dst * B
 
 | Curve | Formula | Note
 | :------ |:----- |:------
-| Linear Bézier | _B(t) = **P0** + t * (**P1** - **P0**)_ | 2 control points ~ Lerp (Linear Interpolation)
-| Quadratic Bézier | _B(t) = (1 - t)^2 * **P0** + 2(1 - t) * t * **P1** + t^2 * **P2**_ | 3 control points
-| Cubic Bézier | ... | ...
+| Linear | _B(t) = **P0** + t * (**P1** - **P0**)_ | 2 control points ~ Lerp (Linear Interpolation)
+| Quadratic | _B(t) = (1 - t)^2 * **P0** + 2(1 - t) * t * **P1** + t^2 * **P2**_ | 3 control points
+| Cubic | ... | ...
 
-- Freya Holmér Video will explain Bézier in more details: [The Beauty of Bézier Curves](https://www.youtube.com/watch?v=aVwxzDHniEw)
+
+
+- Freya Holmér will explain Bézier in more details: [The Beauty of Bézier Curves](https://www.youtube.com/watch?v=aVwxzDHniEw)
 
 ---
----
+
 
 > **Inverse Lerp** 
 ```
@@ -132,8 +133,8 @@ t = (v - a) / (b - a)
 ![Inverse Lerp](/assets/img/inverse_lerp.gif){: .mx-auto.d-block :}
 
 ---
----
-To Uniform Animation (moving) in Bézier we use: [Arc Length Parameterization](https://math.libretexts.org/Bookshelves/Calculus/Calculus_3e_(Apex)/11%3A_Vector-Valued_Functions/11.05%3A_The_Arc_Length_Parameter_and_Curvature)
+
+To Uniform Animation (moving) in Bézier we use [Arc Length Parameterization](https://math.libretexts.org/Bookshelves/Calculus/Calculus_3e_(Apex)/11%3A_Vector-Valued_Functions/11.05%3A_The_Arc_Length_Parameter_and_Curvature)
 
 
 ![Introducing the arc length parameter](/assets/img/arc_length.PNG){: .mx-auto.d-block :}
