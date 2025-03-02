@@ -458,12 +458,11 @@ call the_called_file.bat
 ```
 
 ---
-- **Bonus**: Use it in startup Window, we can try these:
-```
-1. Open command box by using: Window + R
+- **Bonus**: Use it in startup Window, we can try these:  
 
+```
+1.  Open command box by using: Window + R
 2A. Type: shell:startup            (for current User)
 2B. Type: shell:common startup     (for all Users)
-
-3. Copy desired files into the folder just opened by command.
+3.  Copy desired files into the folder just opened by command.
 ```
