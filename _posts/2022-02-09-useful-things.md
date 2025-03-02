@@ -418,3 +418,52 @@ Debug.Log("This is a message from me", me);
 - Usages: **CDN**
 
 - Agent: [Akamai](https://www.akamai.com/)
+
+
+### 36. Call MacOS native 'Finder'
+
+- In Unity, you can use API: [EditorUtility.OpenFolderPanel](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.OpenFolderPanel.html) to open native 'Finder', but it's missing some features, like no options for create new directory (folder). When it's come to build xCode project, that won't do. 
+
+- So we have to find new way, so here it is. Using [Process](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.process?view=net-9.0) to call native app: 
+
+```cs
+string startPath = "/Users"; // Set your default folder path here
+
+ProcessStartInfo psi = new ProcessStartInfo
+{
+    FileName  = "osascript",
+    Arguments = $"-e 'set myFolder to choose folder with prompt \"Select a folder:\" default    location (POSIX file \"{startPath}\")' " +
+                $"-e 'POSIX path of myFolder'",
+    RedirectStandardOutput = true,
+    UseShellExecute        = false,
+    CreateNoWindow         = true
+};
+
+Process process = Process.Start(psi);
+process.WaitForExit();
+
+string folderPath = process.StandardOutput.ReadToEnd().Trim();
+```
+
+
+### 37. Call another Window Batch/Command File
+
+- For example, we have an app that start/stop using command line and there a file that run the command. Depend on operation system, we have different kind of file, _batch file_ - **.bat**, _command file_ - **.cmd** on Window, _shell script_ - **.sh** on UNIX-like. 
+
+- We can call these file from another, for example on Window, using command [call](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/call) for **.bat** file:
+
+
+```
+call the_called_file.bat 
+```
+
+---
+- **Bonus**: Use it in startup Window, we can try these:
+```
+1. Open command box by using: Window + R
+
+2A. Type: shell:startup            (for current User)
+2B. Type: shell:common startup     (for all Users)
+
+3. Copy desired files into the folder just opened by command.
+```
